@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Module">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Module/sqlite.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Module/jcalendar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

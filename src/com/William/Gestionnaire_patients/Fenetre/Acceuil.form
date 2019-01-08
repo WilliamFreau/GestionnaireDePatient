@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.William.Gestionnaire_patients.Fenetre.Acceuil">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="588" height="629"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="4ea4e" binding="pane_Acceuil">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="f67cd" binding="Acceuil_Panel" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Acceuil"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <nested-form id="87611" form-file="com/William/Gestionnaire_patients/Acceuil/Acceuil_JP.form" binding="acceuil_JP">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+              </nested-form>
+            </children>
+          </grid>
+          <grid id="dff0b" binding="Patient_Panel" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Patient"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <nested-form id="d669e" form-file="com/William/Gestionnaire_patients/Patients/Patient_JP.form" binding="patient_JP">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+              </nested-form>
+            </children>
+          </grid>
+          <grid id="9aba" binding="Agenda_Panel" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Agenda"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <nested-form id="fcc06" form-file="com/William/Gestionnaire_patients/Agenda/Agenda_JP.form" binding="agenda_JP">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+              </nested-form>
+            </children>
+          </grid>
+          <grid id="fa865" binding="Ach_Vent_Panel" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Achat vente" enabled="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <nested-form id="74f2d" form-file="com/William/Gestionnaire_patients/Achat_Vente/Ach_vent_JP.form" binding="ach_vent_JP">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+              </nested-form>
+            </children>
+          </grid>
+          <grid id="2d61e" binding="Compta_Panel" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Comptabilité"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <nested-form id="c18d6" form-file="com/William/Gestionnaire_patients/Comptabilité/Compta_JP.form" binding="compta_JP">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+              </nested-form>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
